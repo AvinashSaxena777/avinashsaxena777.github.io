@@ -5,10 +5,14 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
+<script src="{{ '/assets/js/theme-switch.js' | relative_url }}"></script>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <button id="theme-toggle" aria-label="Toggle dark mode">
+      <i class="fas fa-moon"></i>
+    </button>
   </head>
 
   <body>

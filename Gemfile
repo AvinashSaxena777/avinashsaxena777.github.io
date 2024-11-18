@@ -6,6 +6,8 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jemoji'
   gem 'webrick', '~> 1.8'
+  gem 'tzinfo'
+  gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 end
 
 gem 'github-pages'

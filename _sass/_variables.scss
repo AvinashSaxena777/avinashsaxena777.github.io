@@ -163,3 +163,16 @@ $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;
+
+// Light and Dark Theme
+:root {
+   --bg-color: #ffffff;
+   --text-color: #000000;
+   --link-color: #2a7ae2;
+ }
+ 
+ [data-theme="dark"] {
+   --bg-color: #1c1c1c;
+   --text-color: #ffffff;
+   --link-color: #58a6ff;
+ }
